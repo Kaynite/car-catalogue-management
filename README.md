@@ -65,7 +65,7 @@ This is a web application built with **Laravel 11** that allows users to manage 
 5. **Run Migrations**
 
    ```bash
-   php artisan migrate
+   php artisan migrate --seed # To seed dummy users and cars.
    ```
 
 6. **Run the Development Server**
@@ -109,9 +109,6 @@ php artisan test
 
 - **Testing**
   - **Pest over PHPUnit**: I opted for Pest as the testing framework due to its elegance and simplicity compared to PHPUnit. Pest provides a more readable and expressive syntax, making tests easier to write and maintain.
-
-- **Pagination**
-  - Implemented to improve performance and user experience when dealing with large datasets.
 
 ## Setup Instructions Summary
 
